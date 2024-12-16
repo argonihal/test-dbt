@@ -1,0 +1,1 @@
+select * from arundbt.testdbt.customers
