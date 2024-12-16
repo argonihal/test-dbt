@@ -3,4 +3,4 @@
         materialized='table'
     )
 }}
-select * from arundbt.testdbt.customers
+select * from arundbt.testdbt.orders
