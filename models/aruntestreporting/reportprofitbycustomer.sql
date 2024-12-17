@@ -1,0 +1,1 @@
+select CUSTOMERID,CUSTOMERNAME,SEGMENT,country,sum(profit) from {{ ref('Overalldetails') }} group by CUSTOMERID,CUSTOMERNAME,SEGMENT,country
