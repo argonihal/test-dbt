@@ -1,0 +1,1 @@
+select *,ordersellingprice-ordercostprice as profit from {{ ref('Source_orders') }}
